@@ -282,13 +282,13 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="3Ww-fj-3FG"/>
-                                <exclude reference="MgN-A7-f2W"/>
                                 <exclude reference="Gmp-sA-zZ6"/>
                                 <exclude reference="RIQ-ZH-rtz"/>
                                 <exclude reference="YHn-Eb-CUu"/>
                                 <exclude reference="hFA-it-HHT"/>
                                 <exclude reference="t45-dt-ICI"/>
+                                <exclude reference="3Ww-fj-3FG"/>
+                                <exclude reference="MgN-A7-f2W"/>
                                 <exclude reference="ElW-9H-aW7"/>
                                 <exclude reference="Hzv-Pe-ljm"/>
                                 <exclude reference="cHl-Iy-uRk"/>
@@ -300,9 +300,9 @@
                         </variation>
                         <variation key="heightClass=compact">
                             <mask key="constraints">
-                                <include reference="3Ww-fj-3FG"/>
                                 <include reference="RIQ-ZH-rtz"/>
                                 <include reference="hFA-it-HHT"/>
+                                <include reference="3Ww-fj-3FG"/>
                                 <include reference="ElW-9H-aW7"/>
                                 <include reference="cHl-Iy-uRk"/>
                                 <include reference="gyp-Pt-ntF"/>
@@ -311,10 +311,10 @@
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
-                                <include reference="MgN-A7-f2W"/>
                                 <include reference="Gmp-sA-zZ6"/>
                                 <include reference="YHn-Eb-CUu"/>
                                 <include reference="t45-dt-ICI"/>
+                                <include reference="MgN-A7-f2W"/>
                                 <include reference="Hzv-Pe-ljm"/>
                                 <include reference="iaX-gg-6iI"/>
                                 <include reference="kY7-OB-L5c"/>

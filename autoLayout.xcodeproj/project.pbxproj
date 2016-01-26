@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40B9731F1C570EF5004C014A /* SecondMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B9731E1C570EF5004C014A /* SecondMain.storyboard */; };
+		40B973231C571449004C014A /* simpleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B973211C571449004C014A /* simpleTableViewCell.m */; };
+		40B973271C5714C8004C014A /* simpleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B973261C5714C8004C014A /* simpleTableViewController.m */; };
 		40C2BFA01C56085F00BE01D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C2BF9F1C56085F00BE01D4 /* main.m */; };
 		40C2BFA31C56085F00BE01D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C2BFA21C56085F00BE01D4 /* AppDelegate.m */; };
 		40C2BFA61C56086000BE01D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C2BFA51C56086000BE01D4 /* ViewController.m */; };
 		40C2BFA91C56086000BE01D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C2BFA71C56086000BE01D4 /* Main.storyboard */; };
 		40C2BFAB1C56086000BE01D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C2BFAA1C56086000BE01D4 /* Assets.xcassets */; };
 		40C2BFAE1C56086000BE01D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C2BFAC1C56086000BE01D4 /* LaunchScreen.storyboard */; };
-		40C2BFB61C562F7600BE01D4 /* Empty.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40C2BFB51C562F7600BE01D4 /* Empty.xib */; };
+		40C2BFB61C562F7600BE01D4 /* simpleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40C2BFB51C562F7600BE01D4 /* simpleTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40B9731E1C570EF5004C014A /* SecondMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SecondMain.storyboard; sourceTree = "<group>"; };
+		40B973201C571449004C014A /* simpleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simpleTableViewCell.h; sourceTree = "<group>"; };
+		40B973211C571449004C014A /* simpleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = simpleTableViewCell.m; sourceTree = "<group>"; };
+		40B973251C5714C8004C014A /* simpleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simpleTableViewController.h; sourceTree = "<group>"; };
+		40B973261C5714C8004C014A /* simpleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = simpleTableViewController.m; sourceTree = "<group>"; };
 		40C2BF9B1C56085D00BE01D4 /* autoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40C2BF9F1C56085F00BE01D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		40C2BFA11C56085F00BE01D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,7 +35,7 @@
 		40C2BFAA1C56086000BE01D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40C2BFAD1C56086000BE01D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40C2BFAF1C56086000BE01D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		40C2BFB51C562F7600BE01D4 /* Empty.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Empty.xib; sourceTree = "<group>"; };
+		40C2BFB51C562F7600BE01D4 /* simpleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = simpleTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +73,16 @@
 				40C2BFA41C56086000BE01D4 /* ViewController.h */,
 				40C2BFA51C56086000BE01D4 /* ViewController.m */,
 				40C2BFA71C56086000BE01D4 /* Main.storyboard */,
+				40B9731E1C570EF5004C014A /* SecondMain.storyboard */,
 				40C2BFAA1C56086000BE01D4 /* Assets.xcassets */,
 				40C2BFAC1C56086000BE01D4 /* LaunchScreen.storyboard */,
 				40C2BFAF1C56086000BE01D4 /* Info.plist */,
 				40C2BF9E1C56085E00BE01D4 /* Supporting Files */,
-				40C2BFB51C562F7600BE01D4 /* Empty.xib */,
+				40C2BFB51C562F7600BE01D4 /* simpleTableViewCell.xib */,
+				40B973201C571449004C014A /* simpleTableViewCell.h */,
+				40B973211C571449004C014A /* simpleTableViewCell.m */,
+				40B973251C5714C8004C014A /* simpleTableViewController.h */,
+				40B973261C5714C8004C014A /* simpleTableViewController.m */,
 			);
 			path = autoLayout;
 			sourceTree = "<group>";
@@ -141,9 +154,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				40C2BFAE1C56086000BE01D4 /* LaunchScreen.storyboard in Resources */,
-				40C2BFB61C562F7600BE01D4 /* Empty.xib in Resources */,
+				40C2BFB61C562F7600BE01D4 /* simpleTableViewCell.xib in Resources */,
 				40C2BFAB1C56086000BE01D4 /* Assets.xcassets in Resources */,
 				40C2BFA91C56086000BE01D4 /* Main.storyboard in Resources */,
+				40B9731F1C570EF5004C014A /* SecondMain.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +169,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				40C2BFA61C56086000BE01D4 /* ViewController.m in Sources */,
+				40B973231C571449004C014A /* simpleTableViewCell.m in Sources */,
 				40C2BFA31C56085F00BE01D4 /* AppDelegate.m in Sources */,
+				40B973271C5714C8004C014A /* simpleTableViewController.m in Sources */,
 				40C2BFA01C56085F00BE01D4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +321,7 @@
 				40C2BFB41C56086100BE01D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
